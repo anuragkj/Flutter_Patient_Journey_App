@@ -1,0 +1,64 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "appointments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "user_ref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date_time",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "appointments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "user_ref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "patient_name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "def_paths",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "app_ref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "order_seq",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "tests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "app_ref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "order_seq",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
