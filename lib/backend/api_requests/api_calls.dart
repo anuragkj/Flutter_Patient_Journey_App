@@ -36,7 +36,7 @@ class MessagesCall {
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
         'Authorization':
-            'Basic <Add Key>',
+            'Basic QUNiZTQxNjNkM2EyNTIwOWNmNmUzMTkwZGY0MjhjMDEzZjoyMDI0N2I5OGRlYTliNjgyNTA4ZjZiYzZlNmJlOTlkMg==',
       },
       params: {},
       bodyType: BodyType.X_WWW_FORM_URL_ENCODED,
